@@ -24,4 +24,27 @@ entries:
     urls:
     - https://github.com/North14/helm-charts/releases/download/liquidsoap-2.1.0/liquidsoap-2.1.0.tgz
     version: 2.1.0
-generated: "2021-12-06T15:22:58.123276756Z"
+  - apiVersion: v2
+    appVersion: 2.0.1
+    created: "2021-12-06T16:03:56.271926719Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.2.0
+    description: liquidsoap helm package
+    digest: 9c16d791f1a1a2e8c1525bd2629d2158ed7527c2f4e2fccd297fae8f1b148e40
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/liquidsoap
+    icon: https://liquidsoap.org/icon
+    keywords:
+    - liquidsoap
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: liquidsoap@liquidsoap.com
+      name: liquidsoap
+    name: liquidsoap
+    sources:
+    - https://github.com/savonet/liquidsoap
+    urls:
+    - https://github.com/North14/helm-charts/releases/download/liquidsoap-1.0.0/liquidsoap-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-12-06T16:03:56.271935019Z"
