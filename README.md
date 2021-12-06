@@ -19,4 +19,3 @@ You can then run `helm search repo North14` to see the charts.
 
 <!-- Keep full URL links to repo files because this README syncs from main to gh-pages.  -->
 Chart documentation is available in [North14 directory](https://github.com/North14/helm-charts/blob/main/charts/North14/README.md).
-
