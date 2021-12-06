@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: 1.0.0
+description: liquidsoap helm package
+name: liquidsoap
+version: 2.1.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+- liquidsoap
+home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/liquidsoap
+icon: https://liquidsoap.org/icon
+sources:
+- https://github.com/savonet/liquidsoap
+maintainers:
+- name: liquidsoap
+  email: liquidsoap@liquidsoap.com
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.2.0
