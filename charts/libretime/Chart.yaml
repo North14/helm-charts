@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: 3.0.0-alpha9
+description: libretime helm package
+name: libretime
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+- libretime
+home: https://github.com/north14/charts/tree/main/charts/stable/libretime
+icon: https://libretime.org/icon
+sources:
+- https://github.com/kessibi/libretime-docker
+maintainers:
+- name: libretime
+  email: libretime@libretime.com
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.2.0
